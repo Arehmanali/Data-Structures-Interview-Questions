@@ -112,8 +112,8 @@ There are many types of sorting algorithms: quick sort, bubble sort, balloon sor
 **37) Differentiate STACK from ARRAY.**\
 Stack follows a LIFO pattern. It means that data access follows a sequence wherein the last data to be stored when the first one to be extracted. Arrays, on the other hand, does not follow a particular order and instead can be accessed by referring to the indexed element within the array.
 
-**38) Give a basic algorithm for searching a binary search tree.**\
-if the tree is empty, then the target is not in the tree, end search
+**38) Give a basic algorithm for searching a binary search tree.**
+1. if the tree is empty, then the target is not in the tree, end search
 2. if the tree is not empty, the target is in the tree
 3. check if the target is in the root item
 4. if a target is not in the root item, check if a target is smaller than the root’s value
